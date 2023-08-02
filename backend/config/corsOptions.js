@@ -1,4 +1,4 @@
-const allowedOrigins = ["http://localhost:5173/"];
+const allowedOrigins = ["https://project-mgt.vercel.app/"];
 const corsOptions = {
   origin: (origin, callback) => {
     if (allowedOrigins.includes(origin) !== -1) {
